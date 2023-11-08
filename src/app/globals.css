@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* buttons */
+.btn-primary-nav {
+  @apply bg-neutral-7 hover:bg-neutral-6 text-white;
+}
+
+.my-btn {
+  @apply text-[15px] text-center tracking-wider uppercase whitespace-nowrap py-[18px] px-8 font-semibold transition-all duration-300 flex items-center gap-1;
+}
+
+.new-badge {
+  @apply bg-primary-light uppercase px-1 text-[11px];
+}
