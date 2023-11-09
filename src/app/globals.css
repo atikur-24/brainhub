@@ -4,7 +4,6 @@
 
 :root {
   color: white;
-  /* overflow: hidden; */
 }
 
 /* containers */
@@ -14,7 +13,7 @@
 
 /* buttons */
 .my-btn {
-  @apply text-sm lg:text-base text-center tracking-wider uppercase whitespace-nowrap py-[18px] px-8 font-medium xl:font-semibold transition-all duration-300 flex items-center gap-1;
+  @apply text-sm lg:text-[15px] text-center tracking-wider uppercase whitespace-nowrap py-[18px] px-8 font-medium transition-all duration-300 flex items-center gap-1;
 }
 
 .btn-primary-nav {

@@ -1,0 +1,7 @@
+.bg-entrap {
+  background-image: url(../assets//background/bg.png);
+  height: 700px;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}

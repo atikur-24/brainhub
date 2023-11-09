@@ -21,10 +21,10 @@ const Banner = () => {
         <Image width={200} height={200} src={tech4} alt="technology" />
       </div>
       {/* banner content with images */}
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center max-w-[820px] h-full">
         <div>
-          <h1 className="text-4xl md:text-[56px] font-medium md:font-semibold tracking-tighter">
-            High-performing teams of <br /> <span className="text-primary-light">vetted software engineers</span>.
+          <h1 className="text-4xl md:text-[60px] font-medium md:font-semibold tracking-tighter leading-tight">
+            High-performing teams of <span className="text-primary-light">vetted software engineers</span>.
           </h1>
         </div>
         <div className="text-[38px] md:text-[64px] font-medium flex items-center gap-4">
@@ -43,7 +43,7 @@ const Banner = () => {
           <div>,</div>
           <div>]</div>
         </div>
-        <div>
+        <div className="pt-6 pb-10">
           <p className="text-center md:text-lg">Scale your team up and down with the top 1.36% talent skilled in React, Node.js, .NET and AWS. Onboarding within 10 days guaranteed.</p>
         </div>
         <div>
