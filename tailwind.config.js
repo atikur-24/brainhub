@@ -34,7 +34,7 @@ module.exports = {
       "primary-light": "#49ffe6",
       "primary-dark": "#39c6b3",
       "medium-aquamarine": "#62c3a9",
-      "1fc6af": "#1fc6af",
+      "teal-4": "#1fc6af",
       "cadet-blue": "#5cb0b6",
       "pale-turquoise": "#befef7",
       khaki: "#fedf71",

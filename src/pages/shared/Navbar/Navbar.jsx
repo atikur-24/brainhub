@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="sticky top-0">
       <div className="bg-neutral-9 text-white flex items-center justify-between nav-container">
         <Image width={130} height={15} src={logo} alt="logo" />
-        <div className="flex gap-5">
+        <div className="flex gap-6 pr-16">
           {/* Services nav links */}
           <div className="dropdown dropdown-hover">
             <label tabIndex={0} className="inline-flex items-center group gap-1 uppercase text-sm cursor-pointer hover:text-primary-light transition-all">
