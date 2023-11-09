@@ -2,15 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  color: white;
+  /* overflow: hidden; */
+}
+
+/* containers */
+.nav-container {
+  @apply px-12 py-2;
+}
+
 /* buttons */
+.my-btn {
+  @apply text-sm lg:text-base text-center tracking-wider uppercase whitespace-nowrap py-[18px] px-8 font-medium xl:font-semibold transition-all duration-300 flex items-center gap-1;
+}
+
 .btn-primary-nav {
   @apply bg-neutral-7 hover:bg-neutral-6 text-white;
 }
 
-.my-btn {
-  @apply text-[15px] text-center tracking-wider uppercase whitespace-nowrap py-[18px] px-8 font-semibold transition-all duration-300 flex items-center gap-1;
+.btn-primary-teal {
+  @apply bg-primary-light hover:bg-primary-dark text-neutral-9;
 }
 
+/* badges */
 .new-badge {
   @apply bg-primary-light uppercase px-1 text-[11px];
 }

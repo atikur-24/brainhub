@@ -5,7 +5,7 @@ import { HiMiniArrowRight, HiOutlineChevronDown } from "react-icons/hi2";
 
 const Navbar = () => {
   return (
-    <div className="bg-neutral-7 text-white flex items-center justify-between">
+    <div className="bg-neutral-9 text-white flex items-center justify-between">
       <Image width={130} height={15} src={logo} alt="logo" />
       <div className="flex gap-5">
         {/* Services nav links */}
