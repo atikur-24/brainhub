@@ -22,7 +22,7 @@ const Portfolio = () => {
             </Link>
           </div>
           {/* Portfolio 2 */}
-          <div className="flex flex-col gap-4 group cursor-pointer self-end justify-self-end">
+          <div className="flex flex-col gap-4 group cursor-pointer justt">
             <Image className="group-hover:scale-105 transition-all duration-500" src={portfoli2} width={476} height={476} alt="portfolio" />
             <p className="text-dim-grey-2 text-sm uppercase font-medium leading-3">CUSTOM SOFTWARE DEVELOPMENT</p>
             <h2 className="text-xl md:text-3xl font-medium leading-4">Resilient software architecture helps a Swiss fintech get funded and scale quickly</h2>

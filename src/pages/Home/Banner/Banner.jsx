@@ -1,4 +1,6 @@
 import tm1 from "@/assets/avatar/tm-1.webp";
+import tm2 from "@/assets/avatar/tm-2.webp";
+import tm3 from "@/assets/avatar/tm-3.webp";
 import clutchVector from "@/assets/icon/clutch-vector.svg";
 import star from "@/assets/icon/star.svg";
 import tech1 from "@/assets/technology/planet-left-1.png";
@@ -15,10 +17,10 @@ const Banner = () => {
     <section className="bg-neutral-9 pt-[100px] flex justify-between">
       {/* left icons with animation */}
       <div>
-        <Image width={200} height={200} src={tech1} alt="technology" />
-        <Image width={200} height={200} src={tech2} alt="technology" />
-        <Image width={200} height={200} src={tech3} alt="technology" />
-        <Image width={200} height={200} src={tech4} alt="technology" />
+        <Image width={120} height={120} src={tech1} alt="technology" />
+        <Image width={120} height={120} src={tech2} alt="technology" />
+        <Image width={120} height={120} src={tech3} alt="technology" />
+        <Image width={120} height={120} src={tech4} alt="technology" />
       </div>
       {/* banner content with images */}
       <div className="flex flex-col items-center max-w-[820px] h-full">
@@ -34,11 +36,11 @@ const Banner = () => {
           </div>
           <div>,</div>
           <div>
-            <Image width={72} height={72} src={tm1} alt="tm" />
+            <Image width={72} height={72} src={tm2} alt="tm" />
           </div>
           <div>,</div>
           <div>
-            <Image width={72} height={72} src={tm1} alt="tm" />
+            <Image width={72} height={72} src={tm3} alt="tm" />
           </div>
           <div>,</div>
           <div>]</div>
@@ -67,10 +69,10 @@ const Banner = () => {
       </div>
       {/* right icons with animation */}
       <div>
-        <Image width={200} height={200} src={tech1} alt="technology" />
-        <Image width={200} height={200} src={tech2} alt="technology" />
-        <Image width={200} height={200} src={tech3} alt="technology" />
-        <Image width={200} height={200} src={tech4} alt="technology" />
+        <Image width={120} height={120} src={tech1} alt="technology" />
+        <Image width={120} height={120} src={tech2} alt="technology" />
+        <Image width={120} height={120} src={tech3} alt="technology" />
+        <Image width={120} height={120} src={tech4} alt="technology" />
       </div>
     </section>
   );

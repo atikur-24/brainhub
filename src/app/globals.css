@@ -29,3 +29,16 @@
 .new-badge {
   @apply bg-primary-light uppercase px-1 text-[11px];
 }
+
+.animated-border {
+  border-left: 2px solid #fff;
+  animation: verticalBorder 1s ease-in-out infinite alternate;
+}
+@keyframes verticalBorder {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
