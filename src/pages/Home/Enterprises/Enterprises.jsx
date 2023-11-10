@@ -11,7 +11,7 @@ import Image from "next/image";
 
 const Enterprises = () => {
   return (
-    <section className="bg-neutral-9 py-20">
+    <section className="bg-neutral-9 py-10">
       <div class="animated-border"></div>
       <div className="my-container">
         <div className="flex flex-col items-center gap-3">
